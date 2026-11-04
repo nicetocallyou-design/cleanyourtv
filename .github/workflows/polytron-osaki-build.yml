@@ -33,18 +33,9 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
         
-      - name: Integrate SUMBAJANG prayer widget
+      - name: Integrate SUMBAJANG V19
         run: |
-          python - <<'PY'
-          import zipfile
-          from pathlib import Path
-          archive = Path("SUMBAJANG-Polytron-GitHub-Patch-V19.zip")
-          if not archive.is_file():
-              raise SystemExit("SUMBAJANG ZIP not found")
-          with zipfile.ZipFile(archive) as z:
-              z.extractall(".sumbajang-package")
-          PY
-          python .sumbajang-package/SUMBAJANG-Polytron-GitHub-Patch/apply_sumbajang.py --launcher launcher
+          python tools/apply_sumbajang_v19.py --launcher launcher
       - name: Build APK
         working-directory: launcher
         run: |
