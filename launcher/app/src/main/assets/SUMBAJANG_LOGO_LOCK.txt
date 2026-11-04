@@ -1,0 +1,7 @@
+SUMBAJANG LOGO MASTER LOCK â€” V19
+Original uploaded file: SUMBAJANG-Logo-Master-Original.png
+Original SHA-256: 031882616a7a9f000e87fb005e2cc9554026fbbe5009263a45db63b8626e32ff
+Runtime transparent emblem: sumbajang_logo.png
+Runtime SHA-256: 9bbe1978a9aad1dbf088b22128914404e893448dc977739eec89dc9517819b87
+Policy: Do not redraw, regenerate, substitute, recolor, or replace this logo asset.
+V19 only changes the photo overlay alpha and focus-based widget visibility.
