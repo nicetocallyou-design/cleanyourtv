@@ -38,7 +38,7 @@ jobs:
           python - <<'PY'
           import zipfile
           from pathlib import Path
-          archive = Path("SUMBAJANG-Polytron-GitHub-Patch.zip")
+          archive = Path("SUMBAJANG-Polytron-GitHub-Patch-V19.zip")
           if not archive.is_file():
               raise SystemExit("SUMBAJANG ZIP not found")
           with zipfile.ZipFile(archive) as z:
